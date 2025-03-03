@@ -5,7 +5,7 @@ This is a **full-stack Insurance Brokerage Management System** built using:
 
 - **Frontend:** Next.js, Tailwind CSS, Axios
 - **Backend:** Node.js, Express.js, MySQL
-- **Database:** MySQL with Prisma ORM (optional)
+- **Database:** MySQL with Prisma ORM (optional) | We'll be using the MySQL workbench for now
 - **Authentication:** JWT (To be implemented)
 
 The system provides features such as policy management, claims processing, payments, and client-agent interactions.
