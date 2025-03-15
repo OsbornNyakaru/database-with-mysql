@@ -26,5 +26,14 @@ app.post('/clients', (req, res) => {
     });
 });
 
+app.use("/clients", require("./routes/clients"));
+app.use("/agents", require("./routes/agents"));
+app.use("/claims", require("./routes/claims"));
+app.use("/payments", require("./routes/payments"));
+app.use("/claim_status", require("./routes/claim_status"));
+app.use("/insurers", require("./routes/insurers"));
+app.use("/coverages", require("./routes/coverages"));
+app.use("/branches", require("./routes/branches"));
+
 const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
